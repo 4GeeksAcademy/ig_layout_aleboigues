@@ -1,86 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.card {
     background-color: white;
-  }
-  
-  .post {
-    position: absolute;
-    max-width: 600px;
-    width: 500px;
-    border: 1px solid #ccc;
-    background-color: white;
-    overflow: hidden;
-  }
-  
-  .bottom-left {
-    display: flex;
-  }
-  
-  .post-header {
-    width: 100%;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.post-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+}
+
+.icon-header1 {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.title {
+    margin: 10px;
+}
+
+.title-text {
+    margin: 2px
+}
+
+.icon-header2 {
+    margin-right: 10px;
+}
+
+.post-img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons1 {
+    margin-left: 15px;
+}
+
+.icon2 {
+    margin-right: 15px;
+}
+
+.text-container {
     padding: 15px;
-    border-bottom: 1px solid #eee;
-    text-align: left;
-  }
-  
-  .bars-solid {
-    display: flex;
-    justify-content: flex-end;
-    font-size: xx-large;
-  }
-  
-  .image-header,
-  img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .post-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .post-image img {
-    width: 100%;
-    height: 70%;
-  }
-  
-  .post-icons img {
-    padding-left: 10px;
-    padding-top: 20px;
-    width: 45px;
-    height: 45px;
-  }
-  
-  .post-icons img:last-child {
-    margin-left: 60%;
-  }
-  
-  .post-icons {
-    display: flex;
-  }
-  
-  p {
-    display: block;
-    justify-content: end;
-    line-height: 150%;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: left;
-    padding-left: 10px;
-  }
-  
+}
+
+.text-body {
+    font-size: 14px;
+}
